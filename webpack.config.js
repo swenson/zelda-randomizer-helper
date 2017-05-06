@@ -3,7 +3,7 @@ var commonConfig = require('./webpack.common.config');
 
 var output = {
     path: path.resolve(__dirname, 'build'),
-    publicPath: 'http://localhost:8080/build/',
+    publicPath: 'https://swenson.github.io/zelda-randomizer-helper/build/',
     filename: 'bundle.js'
 };
 
