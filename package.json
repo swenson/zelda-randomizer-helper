@@ -1,0 +1,32 @@
+{
+  "name": "zelda-randomizer-helper",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js -p",
+    "dev": "webpack --config webpack.dev.config.js && webpack-dev-server --progress --colors"
+  },
+  "author": "Christopher Swenson",
+  "dependencies": {
+    "animate.css": "git+https://github.com/daneden/animate.css.git",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.2",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "base64-js": "^1.2.0",
+    "eslint": "^3.19.0",
+    "file-loader": "^0.11.1",
+    "npm-cli": "^0.1.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "devDependencies": {
+    "dev-server": "0.0.2"
+  }
+}

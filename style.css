@@ -1,0 +1,242 @@
+.cell {
+  width: 64px;
+  min-width: 64px;
+  height: 42px;
+  background-size: 64px 42px;
+  padding: -1px;
+  border: 1px solid white;
+}
+
+.grid-icon {
+  margin-left: 6px;
+  margin-top: -4px;
+  width: auto;
+  height: 75%;
+  padding: 4px;
+  background: rgba(0, 0, 255, 0.6);
+}
+
+.grid-level {
+  margin-left: 6px;
+  padding: 4px;
+  color: white;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 120%;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.level-icon {
+  padding: 4px;
+  margin: 6px;
+  font-size: 120%;
+  color: white;
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  background: rgba(0, 0, 0, 1.0);
+}
+
+.level-icons {
+  margin-top: 10px;
+}
+
+.icon {
+  width: 24px;
+  height: 32px;
+  margin: 6px;
+  padding: 4px;
+  background-color: #000000;
+}
+
+.icon img {
+  width: auto;
+  height: 80%;
+}
+
+.icon-clear {
+  content:;
+}
+
+.icon-old-man {
+  content: url('images/ZeldaSpriteOldMan.png');
+}
+
+.icon-shopkeeper {
+  content: url('images/ZeldaSpriteMerchant.png');
+}
+
+.icon-old-woman {
+  content: url('images/old-woman.png');
+}
+
+.icon-white-sword {
+  content: url('images/ZeldaSpriteWhiteSword.png');
+}
+
+.icon-magic-sword {
+  content: url('images/magic-sword.png');
+}
+
+.icon-bomb {
+  content: url('images/ZeldaSpriteBomb.png');
+}
+
+.icon-ladder {
+  content: url('images/ZeldaSpriteStepLadder.png');
+}
+
+.icon-key {
+  content: url('images/ZeldaSpriteKey.png');
+}
+
+.icon-flute {
+  content: url('images/ZeldaSpriteRecorder.png');
+}
+
+.icon-meat {
+  content: url('images/ZeldaSpriteFood.png');
+}
+
+.icon-red-potion {
+  content: url('images/ZeldaSprite2ndPotion.png');
+}
+
+.icon-heart {
+  content: url('images/ZeldaSpriteHeartContainer.png');
+}
+
+.icon-blue-ring {
+  content: url('images/ZeldaSpriteBlueRing.png');
+}
+
+.icon-coin {
+  content: url('images/ZeldaSpriteRupy.png');
+}
+
+
+#cell-1-A { background-image: url('images/1A.png'); }
+#cell-1-B { background-image: url('images/1B.png'); }
+#cell-1-C { background-image: url('images/1C.png'); }
+#cell-1-D { background-image: url('images/1D.png'); }
+#cell-1-E { background-image: url('images/1E.png'); }
+#cell-1-F { background-image: url('images/1F.png'); }
+#cell-1-G { background-image: url('images/1G.png'); }
+#cell-1-H { background-image: url('images/1H.png'); }
+#cell-1-I { background-image: url('images/1I.png'); }
+#cell-1-J { background-image: url('images/1J.png'); }
+#cell-1-K { background-image: url('images/1K.png'); }
+#cell-1-L { background-image: url('images/1L.png'); }
+#cell-1-M { background-image: url('images/1M.png'); }
+#cell-1-N { background-image: url('images/1N.png'); }
+#cell-1-O { background-image: url('images/1O.png'); }
+#cell-1-P { background-image: url('images/1P.png'); }
+#cell-2-A { background-image: url('images/2A.png'); }
+#cell-2-B { background-image: url('images/2B.png'); }
+#cell-2-C { background-image: url('images/2C.png'); }
+#cell-2-D { background-image: url('images/2D.png'); }
+#cell-2-E { background-image: url('images/2E.png'); }
+#cell-2-F { background-image: url('images/2F.png'); }
+#cell-2-G { background-image: url('images/2G.png'); }
+#cell-2-H { background-image: url('images/2H.png'); }
+#cell-2-I { background-image: url('images/2I.png'); }
+#cell-2-J { background-image: url('images/2J.png'); }
+#cell-2-K { background-image: url('images/2K.png'); }
+#cell-2-L { background-image: url('images/2L.png'); }
+#cell-2-M { background-image: url('images/2M.png'); }
+#cell-2-N { background-image: url('images/2N.png'); }
+#cell-2-O { background-image: url('images/2O.png'); }
+#cell-2-P { background-image: url('images/2P.png'); }
+#cell-3-A { background-image: url('images/3A.png'); }
+#cell-3-B { background-image: url('images/3B.png'); }
+#cell-3-C { background-image: url('images/3C.png'); }
+#cell-3-D { background-image: url('images/3D.png'); }
+#cell-3-E { background-image: url('images/3E.png'); }
+#cell-3-F { background-image: url('images/3F.png'); }
+#cell-3-G { background-image: url('images/3G.png'); }
+#cell-3-H { background-image: url('images/3H.png'); }
+#cell-3-I { background-image: url('images/3I.png'); }
+#cell-3-J { background-image: url('images/3J.png'); }
+#cell-3-K { background-image: url('images/3K.png'); }
+#cell-3-L { background-image: url('images/3L.png'); }
+#cell-3-M { background-image: url('images/3M.png'); }
+#cell-3-N { background-image: url('images/3N.png'); }
+#cell-3-O { background-image: url('images/3O.png'); }
+#cell-3-P { background-image: url('images/3P.png'); }
+#cell-4-A { background-image: url('images/4A.png'); }
+#cell-4-B { background-image: url('images/4B.png'); }
+#cell-4-C { background-image: url('images/4C.png'); }
+#cell-4-D { background-image: url('images/4D.png'); }
+#cell-4-E { background-image: url('images/4E.png'); }
+#cell-4-F { background-image: url('images/4F.png'); }
+#cell-4-G { background-image: url('images/4G.png'); }
+#cell-4-H { background-image: url('images/4H.png'); }
+#cell-4-I { background-image: url('images/4I.png'); }
+#cell-4-J { background-image: url('images/4J.png'); }
+#cell-4-K { background-image: url('images/4K.png'); }
+#cell-4-L { background-image: url('images/4L.png'); }
+#cell-4-M { background-image: url('images/4M.png'); }
+#cell-4-N { background-image: url('images/4N.png'); }
+#cell-4-O { background-image: url('images/4O.png'); }
+#cell-4-P { background-image: url('images/4P.png'); }
+#cell-5-A { background-image: url('images/5A.png'); }
+#cell-5-B { background-image: url('images/5B.png'); }
+#cell-5-C { background-image: url('images/5C.png'); }
+#cell-5-D { background-image: url('images/5D.png'); }
+#cell-5-E { background-image: url('images/5E.png'); }
+#cell-5-F { background-image: url('images/5F.png'); }
+#cell-5-G { background-image: url('images/5G.png'); }
+#cell-5-H { background-image: url('images/5H.png'); }
+#cell-5-I { background-image: url('images/5I.png'); }
+#cell-5-J { background-image: url('images/5J.png'); }
+#cell-5-K { background-image: url('images/5K.png'); }
+#cell-5-L { background-image: url('images/5L.png'); }
+#cell-5-M { background-image: url('images/5M.png'); }
+#cell-5-N { background-image: url('images/5N.png'); }
+#cell-5-O { background-image: url('images/5O.png'); }
+#cell-5-P { background-image: url('images/5P.png'); }
+#cell-6-A { background-image: url('images/6A.png'); }
+#cell-6-B { background-image: url('images/6B.png'); }
+#cell-6-C { background-image: url('images/6C.png'); }
+#cell-6-D { background-image: url('images/6D.png'); }
+#cell-6-E { background-image: url('images/6E.png'); }
+#cell-6-F { background-image: url('images/6F.png'); }
+#cell-6-G { background-image: url('images/6G.png'); }
+#cell-6-H { background-image: url('images/6H.png'); }
+#cell-6-I { background-image: url('images/6I.png'); }
+#cell-6-J { background-image: url('images/6J.png'); }
+#cell-6-K { background-image: url('images/6K.png'); }
+#cell-6-L { background-image: url('images/6L.png'); }
+#cell-6-M { background-image: url('images/6M.png'); }
+#cell-6-N { background-image: url('images/6N.png'); }
+#cell-6-O { background-image: url('images/6O.png'); }
+#cell-6-P { background-image: url('images/6P.png'); }
+#cell-7-A { background-image: url('images/7A.png'); }
+#cell-7-B { background-image: url('images/7B.png'); }
+#cell-7-C { background-image: url('images/7C.png'); }
+#cell-7-D { background-image: url('images/7D.png'); }
+#cell-7-E { background-image: url('images/7E.png'); }
+#cell-7-F { background-image: url('images/7F.png'); }
+#cell-7-G { background-image: url('images/7G.png'); }
+#cell-7-H { background-image: url('images/7H.png'); }
+#cell-7-I { background-image: url('images/7I.png'); }
+#cell-7-J { background-image: url('images/7J.png'); }
+#cell-7-K { background-image: url('images/7K.png'); }
+#cell-7-L { background-image: url('images/7L.png'); }
+#cell-7-M { background-image: url('images/7M.png'); }
+#cell-7-N { background-image: url('images/7N.png'); }
+#cell-7-O { background-image: url('images/7O.png'); }
+#cell-7-P { background-image: url('images/7P.png'); }
+#cell-8-A { background-image: url('images/8A.png'); }
+#cell-8-B { background-image: url('images/8B.png'); }
+#cell-8-C { background-image: url('images/8C.png'); }
+#cell-8-D { background-image: url('images/8D.png'); }
+#cell-8-E { background-image: url('images/8E.png'); }
+#cell-8-F { background-image: url('images/8F.png'); }
+#cell-8-G { background-image: url('images/8G.png'); }
+#cell-8-H { background-image: url('images/8H.png'); }
+#cell-8-I { background-image: url('images/8I.png'); }
+#cell-8-J { background-image: url('images/8J.png'); }
+#cell-8-K { background-image: url('images/8K.png'); }
+#cell-8-L { background-image: url('images/8L.png'); }
+#cell-8-M { background-image: url('images/8M.png'); }
+#cell-8-N { background-image: url('images/8N.png'); }
+#cell-8-O { background-image: url('images/8O.png'); }
+#cell-8-P { background-image: url('images/8P.png'); }
